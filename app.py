@@ -67,7 +67,7 @@ def delete_todo(id):
     db.session.delete(todo)
     db.session.commit()
 
-    return jsonify("Todo Completed!")
+    return jsonify(f"{todo.title} Completed!")
 
 if __name__=="__main__":
     app.debug = True
