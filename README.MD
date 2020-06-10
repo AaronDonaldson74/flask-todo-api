@@ -23,6 +23,12 @@ $ python
 >>> from app import db
 >>> db.create_all()
 ```
+```
+# To Start the server
+$ pipenv shell
+$ python app.py
+```
+
 - Flask Routes
   - POST One Todo
     - http://localhost:5000/todo
@@ -43,3 +49,5 @@ $ python
     ```
   - DELETE One Todo
     - http://localhost:5000/todo/id
+
+
